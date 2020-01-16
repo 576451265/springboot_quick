@@ -1,0 +1,38 @@
+#普通数据的配置key:(空格)value
+name: zhangsan
+
+#对象的配置
+person:
+  name: zhangsan
+  addr: beijing
+  age: 18
+
+#行内对象配置
+#person: {name: zhangsan,age: 18,addr: beijing}
+
+#server:
+#  port: 8082
+
+#配置数据、集合(普通字符串)
+city:
+  - beijing
+  - tianjing
+  - shanghai
+
+#city: [beijing,tianjin,shanghai]
+
+#配置数据、集合(对象数据)
+student:
+  - name: kim
+    age: 18
+    addr: beijing
+  - name: la
+    age: 17
+    addr: tianjin
+
+#student: [{name: kim,age: 18,addr: beijing}.{name: la,age: 17,addr: tianjin}]
+
+#map配置
+map:
+  key1: value1
+  key2: value2
